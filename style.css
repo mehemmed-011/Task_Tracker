@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.container{
+    width: 336px;
+    margin: 20px auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-color{
+    width: 100%;
+    height: 28px;
+    background-color: #E5A52F;
+    border-radius: 10px 10px 0 0;
+}
+
+.head-text{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.sort-icon-box{
+    width: 90%;
+    margin-top: 16px;
+    display: flex;
+    justify-content: end;
+}
+
+.sort-icon-btn{
+    border: none;
+    background-color: white;
+    display: flex;
+}
+
+.sort-a-z{
+    width: 100%;
+}
+
+.sort-z-a{
+    width: 100%;
+    display: none;
+}
+
+.input-box{
+    width: 90%;
+    margin-top: 15px;
+    position: relative;
+}
+
+.text-input{
+    width: 100%;
+    height: 40px;
+    padding: 0 43px 0 10px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+}
+
+.cancel-btn{
+    position: absolute;
+    border: none;
+    background-color: white;
+    top: 10px;
+    right: 13px;
+}
+
+.cancel-icon{
+    width: 100%;
+}
+
+.add-box{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.plus-btn{
+    width: 42px;
+    height: 42px;
+    background-color: #AA68FE;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+}
+
+.add-btn{
+    width: 150px;
+    height: 42px;
+    background-color: #9953F1;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 71px;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+}
+
+.plus-btn:hover{
+    cursor: pointer;
+}
+
+.list-boxes{
+    width: 90%;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: none;
+}
+
+.lists{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    word-break: break-all;
+}
+
+li{
+    width: 100%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.edit-icon{
+    margin-right: 11px;
+}
+
+.plus-icon{
+    margin-right: 11px;
+    display: none;
+}
+
+.edit-input{
+    font-size: 16px;
+}
