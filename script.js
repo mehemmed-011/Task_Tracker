@@ -26,7 +26,7 @@ sortBtn.addEventListener("click", ()=>{
         sortAz.style.display = "none";
         k = 1;
 
-        sortList("za");
+        sortList("az");
     }
 
     else if(k == 1){
@@ -34,7 +34,7 @@ sortBtn.addEventListener("click", ()=>{
         sortZa.style.display = "none";
         k = 0;
 
-        sortList("az");
+        sortList("za");
     }
 })
 
