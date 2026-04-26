@@ -40,7 +40,7 @@
 
 .sort-icon-btn{
     border: none;
-    background-color: white;
+    background: none;
     display: flex;
 }
 
@@ -70,7 +70,7 @@
 .cancel-btn{
     position: absolute;
     border: none;
-    background-color: white;
+    background: none;
     top: 10px;
     right: 13px;
 }
